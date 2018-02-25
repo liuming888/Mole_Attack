@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./js/backgroundM.js"></script>
+    <script src="./js/game.js"></script>
+    <script src="./js/land.js"></script>
+    <script src="./js/mice.js"></script>
+    <script src="./js/hammer.js"></script>
+    <script src="./js/hour.js"></script>
+    <style>
+        *{margin: 0;padding: 0;}
+        div{margin: 0 auto;width: 750px;height: 550px;}
+    </style>
+</head>
+<body>
+    <audio src="./music/music.ogg" id="music0"  loop></audio>
+    <audio src="./music/ks.ogg" id="music1"></audio>
+    <audio src="./music/beijin.ogg" id="beijin" loop></audio>
+    <audio src="./music/dui.ogg" id="dui"></audio>
+    <audio src="./music/no.ogg" id="no"></audio>
+    <audio src="./music/gameover.ogg" id="over"></audio>
+    <div>
+        <canvas id="canvas" width="750px" height="550px"></canvas>
+    </div>
+</body>
+</html>
+<script>
+    var game=new Game();//代码入口
+</script>
